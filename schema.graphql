@@ -12,7 +12,7 @@ type Query {
   recentlyAddedRecipes: [Recipe]
 }
 
-type Recipe @key(fields: "id") {
+type Recipe {
   id: ID!
   "The name of the recipe"
   name: String
