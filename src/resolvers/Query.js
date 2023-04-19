@@ -1,10 +1,21 @@
 module.exports = {
   Query: {
-    thing(parent, { id }, context) {
-      // Access datasources on the context
-      //
-      // return context.things.getThing(id)
-      return { id, name: "Name" };
+    randomRecipe(_, __, { dataSources }) {
+      return dataSources.recipesAPI.getRandomRecipe();
+    },
+    allRecipes(_, __, { dataSources }) {
+      return dataSources.recipesAPI.getAllRecipes();
+    },
+    recipe(_, { id }, { dataSources }) {
+      try {
+        const recipe = dataSources.recipesAPI.getRecipe(id);
+        return recipe;
+      } catch (e) {
+        return new Error(e);
+      }
+    },
+    recentlyAddedRecipes(_, __, { dataSources }) {
+      return dataSources.recipesAPI.getRecentlyAddedRecipes();
     },
   },
 };

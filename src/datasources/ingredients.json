@@ -1,0 +1,480 @@
+[
+  {
+    "id": "recWtb7k8LgEknGSD",
+    "createdTime": "2018-06-28T03:59:30.000Z",
+    "fields": {
+      "name": "brioche bun",
+      "recipes": ["recWXmXIUudUBe3zi", "recsNvpGf4MoaSDsO"],
+      "_id": 1,
+      "recipeQuantity": 1,
+      "category": "Bakery",
+      "unit": "each",
+      "ingredientSummary": "1-brioche-bun",
+      "ingredientQuickString": "1 each brioche bun"
+    }
+  },
+  {
+    "id": "recF4YqJHQA4XNWoZ",
+    "createdTime": "2018-06-28T03:59:36.000Z",
+    "fields": {
+      "name": "tomato",
+      "recipes": ["recWXmXIUudUBe3zi", "recsNvpGf4MoaSDsO"],
+      "_id": 2,
+      "recipeQuantity": 1,
+      "category": "Produce",
+      "unit": "slice",
+      "ingredientSummary": "2-tomato",
+      "ingredientQuickString": "1 slice tomato"
+    }
+  },
+  {
+    "id": "recL0GCsSxqNOFaL0",
+    "createdTime": "2018-06-28T03:59:49.000Z",
+    "fields": {
+      "name": "lettuce",
+      "recipes": ["recWXmXIUudUBe3zi", "recsNvpGf4MoaSDsO"],
+      "_id": 3,
+      "recipeQuantity": 1,
+      "category": "Produce",
+      "unit": "slice",
+      "ingredientSummary": "3-lettuce",
+      "ingredientQuickString": "1 slice lettuce"
+    }
+  },
+  {
+    "id": "rec3l5q5GFtIizgm3",
+    "createdTime": "2018-06-28T03:59:59.000Z",
+    "fields": {
+      "name": "cheddar cheese",
+      "recipes": ["recWXmXIUudUBe3zi", "recsNvpGf4MoaSDsO"],
+      "_id": 4,
+      "recipeQuantity": 2,
+      "category": "Dairy",
+      "unit": "slice",
+      "ingredientSummary": "4-cheddar-cheese",
+      "ingredientQuickString": "2 slice cheddar cheese"
+    }
+  },
+  {
+    "id": "recZf0TOeFa6jsPy8",
+    "createdTime": "2018-06-28T04:00:17.000Z",
+    "fields": {
+      "name": "onion",
+      "recipes": ["recWXmXIUudUBe3zi", "recsNvpGf4MoaSDsO"],
+      "_id": 5,
+      "recipeQuantity": 3,
+      "category": "Produce",
+      "unit": "slice",
+      "ingredientSummary": "5-onion",
+      "ingredientQuickString": "3 slice onion"
+    }
+  },
+  {
+    "id": "recoVIhfF5qIuk6OC",
+    "createdTime": "2018-06-28T04:02:36.000Z",
+    "fields": {
+      "name": "pizza dough",
+      "recipes": ["recOZrH0RhjSjATBp"],
+      "_id": 6,
+      "recipeQuantity": 1,
+      "category": "Bakery",
+      "unit": "each",
+      "ingredientSummary": "6-pizza-dough",
+      "ingredientQuickString": "1 each pizza dough"
+    }
+  },
+  {
+    "id": "recwpCJerbkE27gMy",
+    "createdTime": "2018-06-28T04:02:50.000Z",
+    "fields": {
+      "name": "tomato sauce",
+      "recipes": ["recOZrH0RhjSjATBp"],
+      "_id": 7,
+      "recipeQuantity": 0.5,
+      "category": "Grocery",
+      "unit": "cup",
+      "ingredientSummary": "7-tomato-sauce",
+      "ingredientQuickString": "0.5 cup tomato sauce"
+    }
+  },
+  {
+    "id": "recrfjmKCwB7EvsO5",
+    "createdTime": "2018-06-28T04:03:19.000Z",
+    "fields": {
+      "name": "mozzarella cheese",
+      "recipes": ["recOZrH0RhjSjATBp"],
+      "_id": 8,
+      "recipeQuantity": 8,
+      "category": "Dairy",
+      "unit": "oz",
+      "ingredientSummary": "8-mozzarella-cheese",
+      "ingredientQuickString": "8 oz mozzarella cheese"
+    }
+  },
+  {
+    "id": "recUjMZTiTY1e0YjC",
+    "createdTime": "2018-06-28T04:03:26.000Z",
+    "fields": {
+      "name": "black olives",
+      "recipes": ["recOZrH0RhjSjATBp"],
+      "_id": 9,
+      "recipeQuantity": 0.5,
+      "category": "Produce",
+      "unit": "can",
+      "ingredientSummary": "9-black-olives",
+      "ingredientQuickString": "0.5 can black olives"
+    }
+  },
+  {
+    "id": "rec0FmxSrbigYw9EU",
+    "createdTime": "2018-06-28T04:03:31.000Z",
+    "fields": {
+      "name": "pepperoni",
+      "recipes": ["recOZrH0RhjSjATBp"],
+      "_id": 10,
+      "recipeQuantity": 0.2,
+      "category": "Meat",
+      "unit": "lb",
+      "ingredientSummary": "10-pepperoni",
+      "ingredientQuickString": "0.2 lb pepperoni"
+    }
+  },
+  {
+    "id": "recrY09TpPUlCHBuH",
+    "createdTime": "2018-06-28T04:03:42.000Z",
+    "fields": {
+      "name": "bowtie pasta",
+      "recipes": ["reccLrNYfWJjCCW9t"],
+      "_id": 11,
+      "recipeQuantity": 0.5,
+      "category": "Grocery",
+      "unit": "bag",
+      "ingredientSummary": "11-bowtie-pasta",
+      "ingredientQuickString": "0.5 bag bowtie pasta"
+    }
+  },
+  {
+    "id": "recr2cAJPeSNLb8Ra",
+    "createdTime": "2018-06-28T04:03:48.000Z",
+    "fields": {
+      "name": "pesto sauce",
+      "recipes": ["reccLrNYfWJjCCW9t"],
+      "_id": 12,
+      "recipeQuantity": 1,
+      "category": "Grocery",
+      "unit": "can",
+      "ingredientSummary": "12-pesto-sauce",
+      "ingredientQuickString": "1 can pesto sauce"
+    }
+  },
+  {
+    "id": "rec76e3glce8bJTVJ",
+    "createdTime": "2018-06-28T04:03:54.000Z",
+    "fields": {
+      "name": "cherry tomatoes",
+      "recipes": ["reccLrNYfWJjCCW9t"],
+      "_id": 13,
+      "recipeQuantity": 10,
+      "category": "Produce",
+      "unit": "oz",
+      "ingredientSummary": "13-cherry-tomatoes",
+      "ingredientQuickString": "10 oz cherry tomatoes"
+    }
+  },
+  {
+    "id": "recrTNzOiFxN0CRXz",
+    "createdTime": "2018-06-28T04:10:10.000Z",
+    "fields": {
+      "name": "beef",
+      "recipes": ["recWXmXIUudUBe3zi"],
+      "_id": 14,
+      "recipeQuantity": 0.25,
+      "category": "Meat",
+      "unit": "lb",
+      "ingredientSummary": "14-beef",
+      "ingredientQuickString": "0.25 lb beef"
+    }
+  },
+  {
+    "id": "recbKgiaXQ6WLJtJx",
+    "createdTime": "2018-06-28T05:40:52.000Z",
+    "fields": {
+      "name": "bread",
+      "recipes": ["recOZrH0RhjSjATBp"],
+      "_id": 15,
+      "recipeQuantity": 5,
+      "category": "Produce",
+      "unit": "slice",
+      "ingredientSummary": "15-bread",
+      "ingredientQuickString": "5 slice bread"
+    }
+  },
+  {
+    "id": "recSAqXRaujuXDbdq",
+    "createdTime": "2023-04-12T18:44:02.000Z",
+    "fields": {
+      "name": "beef",
+      "_id": 16,
+      "recipeQuantity": 500,
+      "category": "Meat",
+      "unit": "lb",
+      "ingredientSummary": "16-beef",
+      "ingredientQuickString": "500 lb beef"
+    }
+  },
+  {
+    "id": "recd5P9WRYASgudAc",
+    "createdTime": "2023-04-13T20:42:42.000Z",
+    "fields": {
+      "category": "Meat",
+      "recipes": ["rec3j49yFpY2uRNM1"],
+      "recipeQuantity": 4,
+      "name": "chicken breasts",
+      "_id": 17,
+      "ingredientSummary": "17-chicken-breasts",
+      "ingredientQuickString": "4  chicken breasts",
+      "descriptor": "boneless, skinless"
+    }
+  },
+  {
+    "id": "recfVRMGFsq5qn2c7",
+    "createdTime": "2023-04-13T20:44:16.000Z",
+    "fields": {
+      "category": "Bakery",
+      "recipes": ["rec3j49yFpY2uRNM1"],
+      "unit": "cup",
+      "recipeQuantity": 0.5,
+      "name": "all-purpose flour",
+      "_id": 18,
+      "ingredientSummary": "18-all-purpose-flour",
+      "ingredientQuickString": "0.5 cup all-purpose flour"
+    }
+  },
+  {
+    "id": "recV4YkIc4B1lwBPz",
+    "createdTime": "2023-04-13T20:44:23.000Z",
+    "fields": {
+      "_id": 19,
+      "ingredientSummary": "19-olive-oil",
+      "ingredientQuickString": "2 tbsp olive oil",
+      "category": "Misc. ",
+      "recipeQuantity": 2,
+      "unit": "tbsp",
+      "name": "olive oil",
+      "recipes": ["rec3j49yFpY2uRNM1", "recT7ayISKSz9C8un"]
+    }
+  },
+  {
+    "id": "rec6z2DBMnL4DWDWq",
+    "createdTime": "2023-04-13T20:45:28.000Z",
+    "fields": {
+      "_id": 20,
+      "ingredientSummary": "20-butter",
+      "ingredientQuickString": "2 tbsp butter",
+      "recipes": ["rec3j49yFpY2uRNM1"],
+      "category": "Misc. ",
+      "recipeQuantity": 2,
+      "unit": "tbsp",
+      "name": "butter"
+    }
+  },
+  {
+    "id": "reczagctf7deYOesP",
+    "createdTime": "2023-04-13T20:45:56.000Z",
+    "fields": {
+      "_id": 21,
+      "ingredientSummary": "21-chicken-broth",
+      "ingredientQuickString": "1 cup chicken broth",
+      "recipeQuantity": 1,
+      "unit": "cup",
+      "name": "chicken broth",
+      "category": "Misc. ",
+      "recipes": ["rec3j49yFpY2uRNM1"]
+    }
+  },
+  {
+    "id": "recWofZ6E2ZMZ0Lru",
+    "createdTime": "2023-04-13T20:46:38.000Z",
+    "fields": {
+      "_id": 22,
+      "ingredientSummary": "22-white-wine",
+      "ingredientQuickString": "0.5 cup white wine",
+      "category": "Misc. ",
+      "recipeQuantity": 0.5,
+      "unit": "cup",
+      "name": "white wine",
+      "descriptor": "dry",
+      "recipes": ["rec3j49yFpY2uRNM1"]
+    }
+  },
+  {
+    "id": "recoOaflOXFlLIo6r",
+    "createdTime": "2023-04-13T20:46:53.000Z",
+    "fields": {
+      "_id": 23,
+      "ingredientSummary": "23-lemon-juice",
+      "ingredientQuickString": "0.25 cup lemon juice",
+      "category": "Misc. ",
+      "recipeQuantity": 0.25,
+      "unit": "cup",
+      "name": "lemon juice",
+      "descriptor": "freshly squeezed",
+      "recipes": ["rec3j49yFpY2uRNM1"]
+    }
+  },
+  {
+    "id": "recYVaiUUtFDqELAU",
+    "createdTime": "2023-04-13T20:47:20.000Z",
+    "fields": {
+      "_id": 24,
+      "ingredientSummary": "24-lemon-zest",
+      "ingredientQuickString": "2 tsp lemon zest",
+      "category": "Misc. ",
+      "recipeQuantity": 2,
+      "unit": "tsp",
+      "name": "lemon zest",
+      "recipes": ["rec3j49yFpY2uRNM1"]
+    }
+  },
+  {
+    "id": "rec2ct5zNVc276AqM",
+    "createdTime": "2023-04-13T20:47:38.000Z",
+    "fields": {
+      "_id": 25,
+      "ingredientSummary": "25-thyme-leaves",
+      "ingredientQuickString": "1 tbsp thyme leaves",
+      "category": "Misc. ",
+      "recipeQuantity": 1,
+      "unit": "tbsp",
+      "name": "thyme leaves",
+      "descriptor": "chopped",
+      "recipes": ["rec3j49yFpY2uRNM1"]
+    }
+  },
+  {
+    "id": "recDK1NpmgsHZ2Vac",
+    "createdTime": "2023-04-13T20:50:10.000Z",
+    "fields": {
+      "_id": 26,
+      "ingredientSummary": "26-butternut-squash",
+      "ingredientQuickString": "2  butternut squash",
+      "recipeQuantity": 2,
+      "name": "butternut squash",
+      "descriptor": "medium-sized",
+      "recipes": ["recT7ayISKSz9C8un"],
+      "category": "Produce"
+    }
+  },
+  {
+    "id": "recN2kMOC1IyrKek9",
+    "createdTime": "2023-04-13T20:50:23.000Z",
+    "fields": {
+      "_id": 27,
+      "ingredientSummary": "27-onion",
+      "ingredientQuickString": "1  onion",
+      "recipeQuantity": 1,
+      "name": "onion",
+      "descriptor": "large, diced",
+      "recipes": ["recT7ayISKSz9C8un"],
+      "category": "Produce"
+    }
+  },
+  {
+    "id": "recxrVC4IUphvU1Kk",
+    "createdTime": "2023-04-13T20:50:38.000Z",
+    "fields": {
+      "_id": 28,
+      "ingredientSummary": "28-garlic",
+      "ingredientQuickString": "4 cloves garlic",
+      "recipeQuantity": 4,
+      "unit": "cloves",
+      "name": "garlic",
+      "descriptor": "minced",
+      "recipes": ["recT7ayISKSz9C8un"],
+      "category": "Produce"
+    }
+  },
+  {
+    "id": "recCcvTrxssGqcn4u",
+    "createdTime": "2023-04-13T20:50:54.000Z",
+    "fields": {
+      "_id": 29,
+      "ingredientSummary": "29-chicken-or-vegetable-broth",
+      "ingredientQuickString": "4 cup chicken or vegetable broth",
+      "recipeQuantity": 4,
+      "unit": "cup",
+      "name": "chicken or vegetable broth",
+      "recipes": ["recT7ayISKSz9C8un"],
+      "category": "Misc. "
+    }
+  },
+  {
+    "id": "reckrLj2BFgDjHVpJ",
+    "createdTime": "2023-04-13T20:51:35.000Z",
+    "fields": {
+      "_id": 30,
+      "ingredientSummary": "30-ginger",
+      "ingredientQuickString": "1 tsp ginger",
+      "recipeQuantity": 1,
+      "unit": "tsp",
+      "name": "ginger",
+      "descriptor": "ground",
+      "recipes": ["recT7ayISKSz9C8un"],
+      "category": "Produce"
+    }
+  },
+  {
+    "id": "recO6I4aJkfb3Ia11",
+    "createdTime": "2023-04-13T20:51:45.000Z",
+    "fields": {
+      "_id": 31,
+      "ingredientSummary": "31-ground-cinnamon",
+      "ingredientQuickString": "0.5 tsp ground cinnamon",
+      "recipeQuantity": 0.5,
+      "unit": "tsp",
+      "name": "ground cinnamon",
+      "recipes": ["recT7ayISKSz9C8un"],
+      "category": "Misc. "
+    }
+  },
+  {
+    "id": "recCzYokUdkGQlnWy",
+    "createdTime": "2023-04-13T20:51:59.000Z",
+    "fields": {
+      "_id": 32,
+      "ingredientSummary": "32-ground-nutmeg",
+      "ingredientQuickString": "0.25 tsp ground nutmeg",
+      "recipeQuantity": 0.25,
+      "unit": "tsp",
+      "name": "ground nutmeg",
+      "recipes": ["recT7ayISKSz9C8un"],
+      "category": "Misc. "
+    }
+  },
+  {
+    "id": "reciFMHLt1GoRkjfa",
+    "createdTime": "2023-04-13T20:52:09.000Z",
+    "fields": {
+      "_id": 33,
+      "ingredientSummary": "33-heavy-cream",
+      "ingredientQuickString": "1 cup heavy cream",
+      "recipeQuantity": 1,
+      "unit": "cup",
+      "name": "heavy cream",
+      "recipes": ["recT7ayISKSz9C8un"],
+      "category": "Dairy"
+    }
+  },
+  {
+    "id": "recYVy9u97B5Y0Lik",
+    "createdTime": "2023-04-13T20:52:18.000Z",
+    "fields": {
+      "_id": 34,
+      "ingredientSummary": "34-croutons",
+      "ingredientQuickString": "  croutons",
+      "name": "croutons",
+      "recipes": ["recT7ayISKSz9C8un"],
+      "category": "Bakery"
+    }
+  }
+]

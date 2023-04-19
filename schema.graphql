@@ -1,42 +1,42 @@
-# @contact isn't being printed to the generated-schema.graphql file
-# See https://github.com/apollographql/federation/issues/1847
-directive @contact(
-  "Contact title of the subgraph owner"
-  name: String!
-  "URL where the subgraph's owner can be reached"
-  url: String
-  "Other relevant notes can be included here; supports markdown links"
-  description: String
-) on SCHEMA
-
 extend schema
-  @contact(
-    name: "Thing Server Team"
-    url: "https://myteam.slack.com/archives/teams-chat-room-url"
-    description: "send urgent issues to [#oncall](https://yourteam.slack.com/archives/oncall)."
-  )
-  @link(
-    url: "https://specs.apollo.dev/federation/v2.3",
-    import: [
-      "@key", "@extends", "@shareable", "@inaccessible", "@override", "@external", "@provides", "@requires", "@tag",
-      "@composeDirective", "@interfaceObject"
-    ]
-  )
+  @link(url: "https://specs.apollo.dev/federation/v2.3", import: ["@key"])
 
 type Query {
-  thing(id: ID!): Thing
+  "Returns a randomly selected recipe from our database"
+  randomRecipe: Recipe
+  "Returns all recipes available in our database"
+  allRecipes: [Recipe]
+  "Returns a specific recipe based on its ID"
+  recipe(id: ID!): Recipe
+  "The most recently added recipes from our database"
+  recentlyAddedRecipes: [Recipe]
 }
 
-type Mutation {
-  createThing(thing: CreateThing!): Thing
-}
-
-type Thing @key(fields: "id") {
+type Recipe @key(fields: "id") {
   id: ID!
+  "The name of the recipe"
   name: String
+  "How much time it takes to cook the recipe, in minutes"
+  cookingTime: Float
+  "How much time it takes to prep the ingredients, in minutes"
+  prepTime: Float
+  "How much time it takes in total to prep and cook the recipe, in minutes"
+  readyTime: Float
+  "How many servings this recipe makes"
+  servings: Int
+  "An ordered list of instructions to create the recipe. The array is ordered, do not mess with the order."
+  instructions: [String]
+  "A list of ingredients the recipe calls for"
+  ingredients: [Ingredient]
+  "A list of recipes that is related to this particular one, for discoverability"
+  relatedRecipes: [Recipe]
 }
 
-input CreateThing {
+type Ingredient {
   id: ID!
-  name: String
+  """
+  The text that describes this ingredient. Usually in the format of: <QUANTITY> <INGREDIENT NAME>, <SPECIAL INSTRUCTIONS>.
+  For example: 1 cup onions, medium diced
+  """
+  fullText: String
 }

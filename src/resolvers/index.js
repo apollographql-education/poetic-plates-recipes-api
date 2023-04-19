@@ -1,10 +1,10 @@
 const { Query } = require("./Query");
 const { Mutation } = require("./Mutation");
-const { Thing } = require("./Thing");
+const { Recipe } = require("./Recipe");
 const resolvers = {
   Query,
   Mutation,
-  Thing,
+  Recipe,
 };
 
 module.exports = resolvers;
