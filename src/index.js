@@ -4,6 +4,11 @@ const { ApolloServer } = require("@apollo/server");
 const { buildSubgraphSchema } = require("@apollo/subgraph");
 const { startStandaloneServer } = require("@apollo/server/standalone");
 const { GraphQLError } = require("graphql");
+const {
+  ApolloServerPluginLandingPageLocalDefault,
+  ApolloServerPluginLandingPageProductionDefault,
+} = require("@apollo/server/plugin/landingPage/default");
+
 const resolvers = require("./resolvers");
 const RecipesAPI = require("./datasources/recipes-api");
 
@@ -20,6 +25,13 @@ async function main() {
   const server = new ApolloServer({
     schema: buildSubgraphSchema({ typeDefs, resolvers }),
     introspection: true,
+    plugins: [
+      process.env.NODE_ENV === "production"
+        ? ApolloServerPluginLandingPageProductionDefault({
+            footer: false,
+          })
+        : ApolloServerPluginLandingPageLocalDefault({ footer: false }),
+    ],
   });
   const { url } = await startStandaloneServer(server, {
     context: async ({ req }) => {
