@@ -40,9 +40,13 @@ class RecipesAPI {
     const ingredientsForRecipe = recipe.fields.ingredients.map(
       (ingredient, index) => {
         const ingredientId = recipe.fields.ingredientsIdList[index];
+        const ingredientName =
+          ingredientsData.find((i) => i.id == ingredientId)?.fields?.name ||
+          null;
         return {
           id: ingredientId,
-          fullText: ingredient,
+          text: ingredient,
+          name: ingredientName,
         };
       }
     );
