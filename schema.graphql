@@ -34,12 +34,9 @@ type Recipe {
 
 type Ingredient {
   id: ID!
-  """
-  A detailed description of the ingredient needed in the recipe. Usually in the format of: <QUANTITY> <INGREDIENT NAME>, <SPECIAL INSTRUCTIONS>.
-  For example: 1 cup onions, medium diced
-  """
+  "Display text for the ingredient"
   text: String
-  "The name of an ingredient. For example: onions"
+  "The name of an ingredient"
   name: String
   "A potential substitute for the ingredient, if available"
   substitute: String
