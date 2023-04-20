@@ -39,4 +39,8 @@ type Ingredient {
   For example: 1 cup onions, medium diced
   """
   text: String
+  "The name of an ingredient. For example: onions"
+  name: String
+  "A potential substitute for the ingredient, if available"
+  substitute: String
 }
