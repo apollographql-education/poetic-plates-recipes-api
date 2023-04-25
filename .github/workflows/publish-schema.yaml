@@ -1,33 +1,39 @@
-name: Deploy
+# This job publishes the schema to GraphOS
+name: Publish schema
 on:
-  push:
-    branches:
-      - main
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  get_subgraph_name:
-    if: false
-    uses: ./.github/workflows/apollo.yaml
-
-  deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Deploy
-        run: echo "::warning file=.github/workflows/deploy.yaml,line=10,endLine=14,title=No Deploy step defined::Define your custom workflow for deploying your subgraph here."
-
   publish_schema:
-    name: Publish new schema to Apollo Studio
-    needs: [ deploy, get_subgraph_name ]
+    name: Publish new schema to GraphOS
+
+    # The type of runner that the job will run on
     runs-on: ubuntu-latest
+
+    # https://docs.github.com/en/actions/reference/encrypted-secrets
+    # https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions#jobsjob_idstepsenv
+    env:
+      APOLLO_KEY: ${{ secrets.APOLLO_KEY }}
+      APOLLO_GRAPH_REF: ${{ vars.APOLLO_GRAPH_REF }}
+      APOLLO_SUBGRAPH_NAME: ${{ vars.APOLLO_SUBGRAPH_NAME }}
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
+
+      # Step: Install Rover
       - name: Install Rover
         run: |
-          curl -sSL https://rover.apollo.dev/nix/latest | sh
+          # Install a specific version of Rover, recommended for CI environments to ensure predictable behavior
+          curl -sSL https://rover.apollo.dev/nix/v0.13.0 | sh
+
+          # Add Rover to the $GITHUB_PATH so it can be used in another step
+          # https://docs.github.com/en/actions/reference/workflow-commands-for-github-actions#adding-a-system-path
           echo "$HOME/.rover/bin" >> $GITHUB_PATH
-      - name: Publish Schema
-        run: rover subgraph publish ${{ secrets.APOLLO_GRAPH_REF }} --schema schema.graphql --name ${{ needs.get_subgraph_name.outputs.name }} --routing-url ${{ secrets.PRODUCTION_URL }}
-        env:
-          APOLLO_KEY: ${{ secrets.APOLLO_KEY }}
-          APOLLO_VCS_COMMIT: ${{ github.event.pull_request.head.sha }}
+
+      # Step: Publish schema to GraphOS
+      - name: Publish schema to GraphOS
+        run: rover subgraph publish ${{ env.APOLLO_GRAPH_REF }} --schema schema.graphql --name ${{ env.APOLLO_SUBGRAPH_NAME }}
