@@ -1,36 +1,44 @@
-name: Tests and Checks
-on: push
+# This job runs a schema check
+name: Schema checks
 
+# It runs for every PR opened, updated and edited
+on:
+  pull_request:
+    types: [opened, synchronize, edited]
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  get_subgraph_name:
-    if: false
-    uses: ./.github/workflows/apollo.yaml
-
   check_schema:
-    name: Check Schema with Apollo Studio
-    needs: [ get_subgraph_name ]
+    name: Run schema checks
+
+    # The type of runner that the job will run on
     runs-on: ubuntu-latest
+
+    # https://docs.github.com/en/actions/reference/environments
+    environment: apollo
+
+    # https://docs.github.com/en/actions/reference/encrypted-secrets
+    # https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions#jobsjob_idstepsenv
     env:
       APOLLO_KEY: ${{ secrets.APOLLO_KEY }}
-      APOLLO_GRAPH_REF: ${{ secrets.APOLLO_GRAPH_REF }}
+      APOLLO_GRAPH_REF: ${{ vars.APOLLO_GRAPH_REF }}
+      APOLLO_SUBGRAPH_NAME: ${{ vars.APOLLO_SUBGRAPH_NAME }}
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
+
+      # Step: Install Rover
       - name: Install Rover
         run: |
-          curl -sSL https://rover.apollo.dev/nix/latest | sh
+          # Install a specific version of Rover, recommended for CI environments to ensure predictable behavior
+          curl -sSL https://rover.apollo.dev/nix/v0.13.0 | sh
+
+          # Add Rover to the $GITHUB_PATH so it can be used in another step
+          # https://docs.github.com/en/actions/reference/workflow-commands-for-github-actions#adding-a-system-path
           echo "$HOME/.rover/bin" >> $GITHUB_PATH
-      - if: env.APOLLO_KEY != '' &&  env.APOLLO_GRAPH_REF != ''
-        run: rover subgraph check ${{ secrets.APOLLO_GRAPH_REF }} --schema schema.graphql --name ${{ needs.get_subgraph_name.outputs.name }}
-  test:
-    name: Test
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: "14"
-          check-latest: true
-      - name: Setup project
-        run: npm install
-      - name: Test
-        run: npm run test
+
+      # Step: Run schema checks
+      - name: Run schema checks
+        run: rover subgraph check ${{ env.APOLLO_GRAPH_REF }} --schema schema.graphql --name ${{ vars.APOLLO_SUBGRAPH_NAME }}
