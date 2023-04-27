@@ -21,12 +21,15 @@ class RecipesAPI {
   }
 
   // author's note: we're making this slow/unoptimized intentionally, for tutorial purposes :)
-  getRecentlyAddedRecipes(limit = 3) {
+  async getRecentlyAddedRecipes(limit = 3) {
     const copiedData = [...recipesData];
     const sorted = copiedData.sort((a, b) => {
       return new Date(b.createdTime) - new Date(a.createdTime);
     });
     const mostRecent = sorted.slice(0, limit);
+
+    await new Promise((resolve) => setTimeout(resolve, 3000));
+
     return mostRecent.map((r) => utils.formattedRecipe(r));
   }
 
@@ -54,7 +57,7 @@ class RecipesAPI {
   }
 
   // author's note: we're making this slow/unoptimized intentionally, for tutorial purposes :)
-  getRelatedRecipes(recipeId, limit) {
+  async getRelatedRecipes(recipeId, limit) {
     const recipe = recipesData.find((r) => r.id === recipeId);
     if (!recipe) {
       throw new Error("Could not find recipe");
@@ -85,6 +88,8 @@ class RecipesAPI {
       const related = recipesData.find((r) => r.id === recipeIds[i]);
       relatedRecipes.push(related);
     }
+
+    await new Promise((resolve) => setTimeout(resolve, 2000));
 
     return relatedRecipes.map((r) => utils.formattedRecipe(r));
   }
