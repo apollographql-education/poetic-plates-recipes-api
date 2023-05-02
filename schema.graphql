@@ -16,6 +16,8 @@ type Recipe {
   id: ID!
   "The name of the recipe"
   name: String
+  "An interesting and fun description of the recipe"
+  description: String
   "How much time it takes to cook the recipe, in minutes"
   cookingTime: Float
   "How much time it takes to prep the ingredients, in minutes"
