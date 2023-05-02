@@ -62,19 +62,37 @@ class RecipesAPI {
     if (!recipe) {
       throw new Error("Could not find recipe");
     }
+
     // algorithm to find related recipes: for each ingredient in the recipe, find recipes that use that ingredient
     const recipeIngredientIds = recipe.fields.ingredientsIdList;
 
     var relatedRecipeIds = [];
+
+    // look through each ingredient in the recipe's
     for (var i = 0; i < recipeIngredientIds.length; i++) {
+      // find it in the "db"
       const ingredient = ingredientsData.find(
         (ing) => ing.id === recipeIngredientIds[i]
       );
+
       if (ingredient) {
+        // look through its recipes
         if (ingredient.fields.recipes) {
           const recipeIdsWithIngredient = ingredient.fields.recipes;
           relatedRecipeIds = [...relatedRecipeIds, ...recipeIdsWithIngredient];
         }
+
+        // use the ingredient name to find other recipes
+        const ingredientsWithSameName = ingredientsData.filter(
+          (ing) => ingredient.fields.name === ing.fields.name
+        );
+        const recipesWithSameIngredientName = ingredientsWithSameName
+          .map((ing) => ing.fields.recipes)
+          .flat();
+        relatedRecipeIds = [
+          ...relatedRecipeIds,
+          ...recipesWithSameIngredientName,
+        ];
       }
     }
 
@@ -83,12 +101,14 @@ class RecipesAPI {
       (rId) => rId !== recipeId
     );
 
+    // get the actual recipe objects
     const relatedRecipes = [];
     for (var i = 0; i < recipeIds.length; i++) {
       const related = recipesData.find((r) => r.id === recipeIds[i]);
       relatedRecipes.push(related);
     }
 
+    // add arbitrary slowness for tutorial purposes
     await new Promise((resolve) => setTimeout(resolve, 2000));
 
     return relatedRecipes.map((r) => utils.formattedRecipe(r));
