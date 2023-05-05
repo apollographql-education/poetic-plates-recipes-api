@@ -113,6 +113,15 @@ class RecipesAPI {
 
     return relatedRecipes.map((r) => utils.formattedRecipe(r));
   }
+
+  // Returns a list of Strings - the names of the cookware the recipe uses
+  getRecipeCookware(recipeId) {
+    const recipe = recipesData.find((r) => r.id === recipeId);
+    if (!recipe) {
+      throw new Error("Could not find recipe");
+    }
+    return recipe.fields.equipment;
+  }
 }
 
 module.exports = RecipesAPI;
