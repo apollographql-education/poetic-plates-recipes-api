@@ -124,7 +124,7 @@
         "0.2 lb pepperoni",
         "5 slice bread"
       ],
-      "equipment": ["clay pizza stone", "wooden rolling pin"]
+      "equipment": ["clay pizza stone"]
     }
   },
   {
@@ -166,7 +166,7 @@
         "1 cup heavy cream",
         "croutons"
       ],
-      "equipment": ["stainless steel stockpot", "ceramic soup bowl"]
+      "equipment": ["stainless steel stockpot"]
     }
   },
   {
