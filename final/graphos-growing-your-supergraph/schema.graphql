@@ -1,0 +1,45 @@
+extend schema
+  @link(url: "https://specs.apollo.dev/federation/v2.3", import: ["@key"])
+
+type Query {
+  "Returns a randomly selected recipe from our database"
+  randomRecipe: Recipe
+  "Returns all recipes available in our database"
+  allRecipes: [Recipe]
+  "Returns a specific recipe based on its ID"
+  recipe(id: ID!): Recipe
+  "The most recently added recipes from our database"
+  recentlyAddedRecipes: [Recipe]
+}
+
+type Recipe {
+  id: ID!
+  "The name of the recipe"
+  name: String
+  "An interesting and fun description of the recipe"
+  description: String
+  "How much time it takes to cook the recipe, in minutes"
+  cookingTime: Float
+  "How much time it takes to prep the ingredients, in minutes"
+  prepTime: Float
+  "How much time it takes in total to prep and cook the recipe, in minutes"
+  readyTime: Float
+  "How many servings this recipe makes"
+  servings: Int
+  "An ordered list of instructions to create the recipe. The array is ordered, do not mess with the order."
+  instructions: [String]
+  "A list of ingredients the recipe calls for"
+  ingredients: [Ingredient]
+  "A list of recipes that is related to this particular one, for discoverability"
+  relatedRecipes: [Recipe]
+}
+
+type Ingredient {
+  id: ID!
+  "Display text for the ingredient"
+  text: String
+  "The name of an ingredient"
+  name: String
+  "A potential substitute for the ingredient, if available"
+  substitute: String
+}

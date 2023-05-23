@@ -1,0 +1,390 @@
+[
+  {
+    "id": "rec3j49yFpY2uRNM1",
+    "createdTime": "2023-04-13T20:39:43.000Z",
+    "fields": {
+      "cookingTime": 20,
+      "name": "Luscious Lemon and Thyme Chicken",
+      "dislikes": 0,
+      "likes": 19,
+      "prepTime": 10,
+      "servings": 4,
+      "_id": 5,
+      "ingredientsIdList": [
+        "recd5P9WRYASgudAc",
+        "recfVRMGFsq5qn2c7",
+        "recV4YkIc4B1lwBPz",
+        "rec6z2DBMnL4DWDWq",
+        "reczagctf7deYOesP",
+        "recWofZ6E2ZMZ0Lru",
+        "recoOaflOXFlLIo6r",
+        "recYVaiUUtFDqELAU",
+        "rec2ct5zNVc276AqM"
+      ],
+      "preparation": "1. Begin by preparing the chicken breasts. Rinse them under cold running water and pat them dry with a paper towel. Season them generously with salt and pepper on both sides.\n2. In a shallow dish, add the flour and dredge the chicken breasts, making sure to coat them evenly.\n3. Heat the olive oil and butter in a large skillet over medium heat until the butter has melted and is sizzling.\n4. Add the chicken breasts to the skillet and cook for about 4-5 minutes on each side, until golden brown and cooked through. Remove from skillet and set aside.\n5. Add the chicken broth, white wine, lemon juice, lemon zest, and thyme to the skillet. Stir to combine, scraping any browned bits from the bottom of the pan.\n6. Bring the mixture to a simmer and cook for about 5 minutes, until the sauce has reduced slightly and thickened.\n7. Add the chicken breasts back to the skillet and spoon the sauce over them. Simmer for another 5-7 minutes, until the chicken is heated through and the sauce has thickened even more.\n8. Serve the chicken on a platter, garnished with fresh thyme leaves and lemon slices. Drizzle the remaining sauce over the top and serve hot.\n",
+      "description": "As you slice into the succulent chicken breasts, the aroma of thyme will waft through the air, leaving your mouth watering with anticipation. The flavors of the lemon and thyme will meld together, creating a symphony of taste in your mouth that is sure to leave you satisfied. The texture of the chicken is tender and juicy, the coating of flour adding a light, crispy crunch. The sauce is tangy, with hints of lemon and white wine that will dance across your tongue, leaving a delightful aftertaste. Enjoy this delicious and visually stunning dish with your loved ones, and savor the moment together.",
+      "recipeId": "5-luscious-lemon-and-thyme-chicken",
+      "readyTime": 30,
+      "ingredients": [
+        "4 chicken breasts, boneless, skinless",
+        "1/2 cup all-purpose flour",
+        "2 tbsp olive oil",
+        "2 tbsp butter",
+        "1 cup chicken broth",
+        "1/2 cup white wine, dry",
+        "1/4 cup lemon juice, freshly squeezed",
+        "2 tsp lemon zest",
+        "1 tbsp thyme leaves, chopped"
+      ],
+      "equipment": ["cast iron skillet"]
+    }
+  },
+  {
+    "id": "rec6eWtU37F3R5H7o",
+    "createdTime": "2023-05-02T19:55:10.000Z",
+    "fields": {
+      "cookingTime": 25,
+      "name": "Chicken and vegetable stir fry with rice",
+      "dislikes": 0,
+      "likes": 0,
+      "prepTime": 5,
+      "servings": 4,
+      "_id": 8,
+      "ingredientsIdList": [
+        "recndCeAtlWxto1lE",
+        "recs7mlAdaM5py14C",
+        "rec5P1KyKCzheHSnL",
+        "recMPgGj1EiU3fAA5",
+        "rec3YgDSZI7s9BovG",
+        "reciMqodmVmCYLOzq",
+        "recSbgU2Zb9sxrJfF",
+        "recUIBeVwzxAoEdm7",
+        "recdvKHQoYxuxxaTb",
+        "recC5tx1RdLTRMWbI",
+        "receB2Fu7h1XGDfg6",
+        "recITJhqE4jPJkc2G",
+        "recMkkBkZUdkfgNDV",
+        "recaGNw4oop1ufALQ",
+        "rectooxoS6Bk7xdIq",
+        "recGM4NneVIMPqECU"
+      ],
+      "preparation": "1. Rinse the rice under cold water until the water runs clear. In a medium pot, combine the rinsed rice and water, and bring to a boil. Once boiling, reduce the heat to low and cover the pot with a lid. Let the rice simmer for 18-20 minutes, until all the water has been absorbed and the rice is tender. As the rice cooks, imagine the wonderful aroma and comforting taste of the final dish.\n2. In a large skillet or wok, heat the vegetable oil over medium-high heat. Once hot, add the sliced chicken and stir-fry until browned and cooked through, about 5-7 minutes. As the chicken cooks, imagine the sizzling sound and the savory aroma that fills your kitchen.\n3. Add the sliced bell peppers, onion, broccoli florets, and minced garlic to the skillet. Stir-fry for another 3-4 minutes, until the vegetables are tender but still slightly crisp. As the vegetables cook, enjoy the bright colors and fresh aroma of the dish.\n4. In a small bowl, whisk together the soy sauce, honey, rice vinegar, ginger powder, red pepper flakes, and a pinch of salt and pepper. Pour the sauce over the chicken and vegetables in the skillet, and stir to coat everything evenly. Allow the sauce to simmer for 1-2 minutes, until slightly thickened. As the sauce simmers, imagine the sweet and savory aroma and the delicious flavor it will add to the dish.\n5. Serve the stir-fry hot over the cooked rice, garnished with sesame seeds and fresh cilantro. As you admire the beautiful colors and textures of the dish, feel the warmth and comfort that it brings to your soul.\n",
+      "description": "Take your taste buds on a flavorful journey with a chicken and vegetable stir fry served over a bed of fluffy rice. Perfect for anyone looking for a healthy and satisfying meal, this dish is loaded with colorful veggies and tender chicken. To fully enjoy this dish, pair it with some upbeat and energetic music, which will add to the fun and lively atmosphere. The perfect plateware for serving stir fry is a large and shallow bowl, allowing you to fully appreciate the variety of colors and textures in the dish. So dig in with chopsticks and savor every bite of this delicious and nutritious meal!",
+      "recipeId": "8-chicken-and-vegetable-stir-fry-with-rice",
+      "readyTime": 30,
+      "ingredients": [
+        "1 cup uncooked long-grain rice",
+        "2 cup water",
+        "1 tbsp vegetable oil",
+        "1 lb boneless, skinless chicken breast, sliced into thin strips",
+        "1 bell pepper, red, sliced",
+        "1 bell pepper, yellow, sliced",
+        "1 onion, small, sliced",
+        "1 cup broccoli florets",
+        "1/4 cup soy sauce",
+        "2 tbsp honey",
+        "1 tbsp rice vinegar",
+        "1/2 tsp ginger powder",
+        "sesame seeds",
+        "cilantro",
+        "2 cloves garlic, minced",
+        "1/4 tsp red pepper flakes"
+      ],
+      "equipment": ["aluminum frying pan", "carbon steel wok"]
+    }
+  },
+  {
+    "id": "recOZrH0RhjSjATBp",
+    "createdTime": "2018-06-28T03:46:54.000Z",
+    "fields": {
+      "cookingTime": 35,
+      "name": "Pepperoni & Olive Pizza",
+      "dislikes": 0,
+      "likes": 11,
+      "prepTime": 10,
+      "servings": 8,
+      "_id": 2,
+      "ingredientsIdList": [
+        "recoVIhfF5qIuk6OC",
+        "recwpCJerbkE27gMy",
+        "recrfjmKCwB7EvsO5",
+        "recUjMZTiTY1e0YjC",
+        "rec0FmxSrbigYw9EU",
+        "recbKgiaXQ6WLJtJx"
+      ],
+      "preparation": "1. Preheat your oven to 450°F (230°C) and place your baking stone or baking sheet inside to preheat.\n2. Sprinkle some flour onto a clean surface and begin to stretch and roll out your pizza dough. As you work the dough, feel its texture as it becomes smooth and elastic under your hands. See the white of the dough as it stretches, like clouds in the sky.\n3. Once the dough is the desired shape, transfer it to a piece of parchment paper that has been dusted with cornmeal or flour. The parchment paper will help the pizza slide onto the preheated baking stone or baking sheet.\n4. Spread the tomato sauce onto the dough, leaving a small border around the edge. Smell the tangy aroma of the tomato sauce, and see the bright red color as it contrasts with the white of the dough.\n5. Sprinkle the shredded mozzarella cheese over the tomato sauce, making sure to distribute it evenly. The cheese should melt and bubble in the oven, creating a mouth-watering aroma.\n6. Arrange the pepperoni slices and black olive slices on top of the cheese. See the bright red and green colors of the toppings as they contrast with the white cheese.\n7. Drizzle the olive oil over the top of the pizza and sprinkle with garlic powder, salt, and pepper. Smell the fragrant garlic as it infuses the pizza with its savory flavor.\n8. Carefully slide the pizza onto the preheated baking stone or baking sheet and bake for 10-12 minutes or until the crust is golden brown and the cheese is melted and bubbly. During this time, smell the pizza as it cooks, and feel the anticipation of its delicious flavors.\n9. Once the pizza is finished baking, remove it from the oven and allow it to cool for a few minutes. Garnish with fresh basil leaves, and see the vibrant green color as it contrasts with the pizza.\n10. Cut the pizza into slices and savor each bite as the gooey cheese, salty pepperoni, and earthy olives blend together in a heavenly flavor. Enjoy the crispy crust as it crunches beneath your teeth, and savor the warm, comforting feeling that comes from a perfect slice of pizza.\n",
+      "description": "Picture this: a warm summer evening in a cozy trattoria, with the aroma of freshly baked pizza wafting through the air. This is the perfect setting to enjoy a classic pepperoni and olive pizza. This pizza is perfect for those who enjoy bold, savory flavors with a little bit of a kick. The combination of the salty olives and the spicy pepperoni is sure to satisfy any craving. It's a great option for a casual dinner with friends or family, or even as a late-night snack.",
+      "recipeId": "2-pepperoni-&-olive-pizza",
+      "readyTime": 45,
+      "ingredients": [
+        "1 each pizza dough",
+        "1/2 cup tomato sauce",
+        "8 oz mozzarella cheese",
+        "1/2 can black olives",
+        "0.2 lb pepperoni",
+        "5 slice bread"
+      ],
+      "equipment": ["clay pizza stone"]
+    }
+  },
+  {
+    "id": "recT7ayISKSz9C8un",
+    "createdTime": "2023-04-13T20:49:21.000Z",
+    "fields": {
+      "cookingTime": 30,
+      "name": "Butternut squash soup",
+      "dislikes": 0,
+      "likes": 0,
+      "prepTime": 10,
+      "servings": 4,
+      "_id": 6,
+      "ingredientsIdList": [
+        "recV4YkIc4B1lwBPz",
+        "recDK1NpmgsHZ2Vac",
+        "recN2kMOC1IyrKek9",
+        "recxrVC4IUphvU1Kk",
+        "recCcvTrxssGqcn4u",
+        "reckrLj2BFgDjHVpJ",
+        "recO6I4aJkfb3Ia11",
+        "recCzYokUdkGQlnWy",
+        "reciFMHLt1GoRkjfa",
+        "recYVy9u97B5Y0Lik"
+      ],
+      "preparation": "1. Start by peeling and chopping the butternut squash into bite-sized pieces. As you chop, the vibrant orange hue of the squash will fill you with a sense of warmth and comfort.\n2. Next, dice the onion and mince the garlic. The sharp aroma of the onion and garlic will awaken your senses and bring a zing to the air.\n3. In a large pot, heat the olive oil over medium heat. As the oil heats up, the inviting aroma of the oil will start to fill the room, adding to the ambiance of your cooking experience.\n4. Add the diced onion and minced garlic to the pot and sauté until the onion is translucent and the garlic is fragrant, creating a symphony of aromas that will make your mouth water.\n5. Add the chopped butternut squash, chicken or vegetable broth, ground ginger, ground cinnamon, and ground nutmeg to the pot, stirring to combine. The broth will add a savory and hearty flavor, while the spices will add warmth and depth.\n6. Bring the mixture to a boil and then reduce the heat to low. Cover the pot and simmer for 20-25 minutes, or until the butternut squash is tender and easily mashed with a fork.\n7. Using an immersion blender or a blender, blend the soup until smooth and creamy. The velvety texture of the soup will soothe your soul and bring you comfort.\n8. Add the heavy cream to the pot and stir until well combined. The creaminess of the soup will make you feel warm and content.\n9. Season the soup with salt and freshly ground black pepper to taste. The subtle balance of the salt and pepper will bring the flavors to life and leave your taste buds satisfied.\n10. Serve the soup hot with croutons and fresh parsley as a garnish. The crunch of the croutons and the freshness of the parsley will add texture and color to the soup, elevating it to a true culinary masterpiece.\n\n",
+      "description": "Enjoy this cozy and inviting soup, allowing it to warm your soul and bring comfort to your heart.",
+      "recipeId": "6-butternut-squash-soup",
+      "readyTime": 40,
+      "ingredients": [
+        "2 tbsp olive oil",
+        "2 butternut squash, medium-sized",
+        "1 onion, large, diced",
+        "4 cloves garlic, minced",
+        "4 cup chicken broth, or vegetable",
+        "1 tsp ginger, ground",
+        "1/2 tsp ground cinnamon",
+        "1/4 tsp ground nutmeg",
+        "1 cup heavy cream",
+        "croutons"
+      ],
+      "equipment": ["stainless steel stockpot"]
+    }
+  },
+  {
+    "id": "recWXmXIUudUBe3zi",
+    "createdTime": "2018-06-28T03:46:54.000Z",
+    "fields": {
+      "cookingTime": 20,
+      "name": "Supreme Burger",
+      "dislikes": 1,
+      "likes": 10,
+      "prepTime": 10,
+      "servings": 4,
+      "_id": 1,
+      "ingredientsIdList": [
+        "rec3qnvzzOaSCoxEK",
+        "reckd7PeI8xWr6y8n",
+        "rec7tXX6ZS06aGkJO",
+        "recKesR2L7xvAmwpb",
+        "rec7XEkqsW88y5Y4v",
+        "recJKejGyt1oJviJO",
+        "recWEEH4WgJve1h51",
+        "recn5ZQHSr7wBGAc6",
+        "recBN2fzpEZP66FXQ",
+        "rec9PzdXBtw7UsSmi",
+        "recnap7VwBh80IRGc",
+        "reczZt8JFl8oehXYs",
+        "recSqssEOiyN8Wf6n",
+        "recWtb7k8LgEknGSD"
+      ],
+      "preparation": "1. Preheat a cast iron skillet over medium-high heat. While the pan heats up, take a deep breath in and enjoy the sizzling sound of the skillet as it warms up.\n2. In a mixing bowl, combine the ground beef, egg, breadcrumbs, salt, and black pepper. Use your hands to mix the ingredients together until they are fully combined. Take a moment to appreciate the texture and aroma of the raw meat mixture.\n3. Form the beef mixture into four equal-sized patties, using your hands to shape them into perfect rounds. As you shape each patty, imagine the satisfaction of biting into a juicy and flavorful burger.\n4. Add a tablespoon of olive oil to the heated skillet, then carefully place each patty in the pan. Hear the sizzle as the patties hit the hot surface and let them cook for about 3-4 minutes per side or until the internal temperature reaches 160°F.\n5. Once the patties are almost cooked through, top each one with a slice of cheddar cheese and let it melt for about 1-2 minutes. While the cheese melts, picture the oozy and gooey texture of the melted cheddar cheese.\n6. While the cheese is melting, toast the brioche buns to golden brown perfection using a separate pan or griddle. As the buns toast, inhale the sweet aroma of the buttery brioche and feel the warmth of the toasted bread in your hands.\n7. Assemble the burger by spreading mayonnaise on the bottom bun, followed by a lettuce leaf, a slice of tomato, a slice of red onion, a pickle, and the cheesy burger patty on top. Finally, add a dollop of ketchup on top of the patty and top it off with the other half of the brioche bun. Marvel at the beautiful colors and textures of the layers of the burger as you stack them.\n8. Take a bite of the burger, savoring the explosion of flavors and textures in your mouth. Close your eyes and relish the savory beef, melted cheese, crispy vegetables, and the tangy sauce that perfectly complement each other. Repeat until you've savored every last morsel of this supreme burger.\n\n",
+      "description": "Mouthwatering Supreme Burger that will tantalize your taste buds and leave you craving for more.",
+      "recipeId": "1-supreme-burger",
+      "readyTime": 30,
+      "ingredients": [
+        "1 lb ground beef",
+        "1 egg",
+        "1/4 cup breadcrumbs",
+        "1/2 tsp salt",
+        "1/4 tsp black pepper",
+        "4 slice cheddar cheese",
+        "4 lettuce leaves",
+        "4 slice tomato",
+        "4 slice red onion",
+        "4 pickles",
+        "4 tbsp mayonnaise",
+        "4 tbsp ketchup",
+        "1 tbsp olive oil",
+        "4 each brioche bun"
+      ],
+      "equipment": ["cast iron skillet"]
+    }
+  },
+  {
+    "id": "reccLrNYfWJjCCW9t",
+    "createdTime": "2018-06-28T03:46:54.000Z",
+    "fields": {
+      "cookingTime": 15,
+      "name": "Bowtie Pesto Pasta",
+      "dislikes": 9,
+      "likes": 2,
+      "prepTime": 5,
+      "servings": 2,
+      "_id": 3,
+      "dietaryRestrictions": ["VEGETARIAN"],
+      "ingredientsIdList": [
+        "recrY09TpPUlCHBuH",
+        "recr2cAJPeSNLb8Ra",
+        "rec76e3glce8bJTVJ"
+      ],
+      "preparation": "1. Bring pot of water to boil, and add pasta. cook for 10-12 minutes \n2. Prepare pesto\n3. Cut cherry tomatoes into halves\n",
+      "description": "Indulge in a classic Italian comfort food with a vegetarian twist - bowtie pesto pasta. Originating from Italy, this dish is perfect for those who prefer a lighter and meatless option. With a burst of flavors from fresh basil, pine nuts, and parmesan cheese, this pasta is perfect for a summer evening, paired with a chilled glass of white wine. Any food lover who enjoys fresh, healthy, and delicious Italian flavors will love this dish.",
+      "recipeId": "3-bowtie-pesto-pasta",
+      "readyTime": 20,
+      "ingredients": [
+        "1/2 bag bowtie pasta",
+        "1 can pesto sauce",
+        "10 oz cherry tomatoes"
+      ],
+      "equipment": ["stainless steel stockpot"]
+    }
+  },
+  {
+    "id": "receIrmoKJh6BVi9v",
+    "createdTime": "2023-05-02T19:25:44.000Z",
+    "fields": {
+      "cookingTime": 45,
+      "name": "Tomato soup",
+      "dislikes": 0,
+      "likes": 0,
+      "prepTime": 10,
+      "servings": 4,
+      "_id": 7,
+      "ingredientsIdList": [
+        "recSqssEOiyN8Wf6n",
+        "reczLHyil7a9hayff",
+        "rectooxoS6Bk7xdIq",
+        "recGM4NneVIMPqECU",
+        "reczskRMEBNgNyHqj",
+        "recaZHBaIN1yOGKOX",
+        "recqziMXptKdES7mx",
+        "recyCXt3mpJCXf84u"
+      ],
+      "preparation": "1. In a large pot or Dutch oven, heat the olive oil over medium heat. As the oil heats up, inhale the fragrant aroma of the oil and imagine the warm and comforting bowl of soup you are about to make.\n2. Add the chopped onion to the pot and sauté for about 5 minutes, stirring occasionally, until the onions are softened and translucent. As the onions cook, let their sweet aroma fill your senses.\n3. Add the minced garlic and red pepper flakes to the pot, and sauté for an additional 1-2 minutes until fragrant. Enjoy the delicious smell of garlic and spicy red pepper flakes as they blend together.\n4. Add the can of whole peeled tomatoes to the pot, breaking them up with a wooden spoon or potato masher. As you mash the tomatoes, let their bright red color and sweet smell fill your senses.\n5. Add the chicken or vegetable broth to the pot, followed by a teaspoon of sugar, and stir to combine. Allow the soup to come to a boil, then reduce the heat to low and let it simmer for 20-25 minutes. As the soup simmers, enjoy the comforting and cozy aroma that fills your kitchen.\n6. Remove the pot from the heat and use an immersion blender to blend the soup until it is smooth and creamy. If you don't have an immersion blender, you can transfer the soup to a blender and blend it in batches. As the soup blends, imagine the smooth and creamy texture that it will have.\n7. Return the pot to low heat and add the heavy cream to the soup, stirring until well combined. Season with salt and pepper to taste. As you add the cream and season the soup, feel the warmth and comfort that the creamy tomato soup will provide.\n8. Serve the soup hot, garnished with croutons and fresh basil leaves. Take a moment to admire the beautiful colors and textures of the soup, and the wonderful aroma that fills your senses.\n",
+      "description": "Warm up on a cool autumn day with a comforting bowl of tomato soup. This classic soup is perfect for anyone looking for a cozy and comforting meal. Ideal for those who enjoy simple and familiar flavors, tomato soup is a timeless classic that never goes out of style. The perfect plateware for serving tomato soup is a classic white bowl, allowing the vibrant red color of the soup to pop. So grab a spoon and enjoy this soul-warming dish on a chilly day!",
+      "recipeId": "7-tomato-soup",
+      "readyTime": 55,
+      "ingredients": [
+        "1 tbsp olive oil",
+        "onion, medium, chopped",
+        "2 cloves garlic, minced",
+        "1/4 tsp red pepper flakes",
+        "28 oz tomato, peeled",
+        "2 cup chicken broth, or vegetable",
+        "1 tsp sugar",
+        "1/2 cup heavy cream"
+      ],
+      "equipment": ["stainless steel stockpot"]
+    }
+  },
+  {
+    "id": "recgUKbxnQssl9fYc",
+    "createdTime": "2023-05-02T20:40:04.000Z",
+    "fields": {
+      "cookingTime": 15,
+      "name": "Tomato basil pasta",
+      "dislikes": 0,
+      "likes": 0,
+      "prepTime": 10,
+      "servings": 6,
+      "_id": 10,
+      "ingredientsIdList": [
+        "recwMGUFw3bAfxEBV",
+        "rectcxXLGbW0wNDE2",
+        "recAZJ1EN98LE1gtw",
+        "recV4YkIc4B1lwBPz",
+        "recxrVC4IUphvU1Kk",
+        "recN2kMOC1IyrKek9",
+        "recq854ij6QfJIAjE"
+      ],
+      "preparation": "1. Start by boiling the pasta in salted water according to the package directions. Once cooked, drain and set aside.\n2. In a large skillet or wok, heat the olive oil over medium heat. Add the minced garlic and diced onion, and sauté until the onion is translucent.\n3. Add the chopped tomatoes to the skillet, and cook for 5-7 minutes until the tomatoes have broken down and released their juices. Use a wooden spoon to gently mash the tomatoes.\n4. Add the cooked pasta to the skillet, and stir until it's coated in the tomato sauce. Season with salt and black pepper to taste.\n5. Add the chopped basil leaves to the skillet, and stir to combine.\n6. If desired, sprinkle grated Parmesan cheese over the top of the pasta.\n",
+      "description": "This tomato basil pasta is perfect for a warm summer evening, served with a crisp green salad and a glass of chilled white wine. It's a dish that will make you feel refreshed, energized, and satisfied. The juicy and sweet tomatoes, aromatic basil, and al dente pasta will transport you straight to the Mediterranean coast. Anyone who loves fresh and vibrant summer flavors will enjoy this dish.",
+      "recipeId": "10-tomato-basil-pasta",
+      "readyTime": 25,
+      "ingredients": [
+        "1 lb pasta, dried",
+        "1 cup fresh basil leaves, chopped",
+        "parmesan cheese, grated",
+        "2 tbsp olive oil",
+        "4 cloves garlic, minced",
+        "1 onion, large, diced",
+        "4 tomato, chopped"
+      ],
+      "equipment": ["stainless steel saucier"]
+    }
+  },
+  {
+    "id": "recsNvpGf4MoaSDsO",
+    "createdTime": "2023-04-12T21:37:00.000Z",
+    "fields": {
+      "cookingTime": 10,
+      "name": "Supreme Burger (Vegetarian Edition)",
+      "dislikes": 20,
+      "likes": 0,
+      "prepTime": 10,
+      "servings": 4,
+      "_id": 4,
+      "dietaryRestrictions": ["VEGETARIAN"],
+      "ingredientsIdList": [
+        "recWtb7k8LgEknGSD",
+        "recF4YqJHQA4XNWoZ",
+        "rec3l5q5GFtIizgm3",
+        "recZf0TOeFa6jsPy8"
+      ],
+      "preparation": "1. Heat grill, cooking on both sides\n2. Add onion, cheese, tomato, lettuce.\n",
+      "description": "Satisfy your cravings for a juicy burger without the meat with a vegetarian supreme burger. Originating from the United States, this burger is perfect for those who prefer a vegetarian option but don't want to miss out on the traditional burger experience. Packed with a variety of fresh and colorful veggies, this burger is perfect for any season and can be enjoyed by anyone looking for a healthy and delicious meal. Veggie-lovers and burger enthusiasts alike will appreciate the burst of flavors in every bite.",
+      "recipeId": "4-supreme-burger-(vegetarian-edition)",
+      "readyTime": 20,
+      "ingredients": [
+        "4 each brioche bun",
+        "1 slice tomato",
+        "2 slice cheddar cheese",
+        "3 slice onion"
+      ],
+      "equipment": ["cast iron skillet"]
+    }
+  },
+  {
+    "id": "recy2styb9WrA0ivS",
+    "createdTime": "2023-05-02T20:00:00.000Z",
+    "fields": {
+      "cookingTime": 10,
+      "name": "Panini sandwich",
+      "dislikes": 0,
+      "likes": 0,
+      "servings": 1,
+      "_id": 9,
+      "ingredientsIdList": [
+        "rec5nZDjeF9ceEvuP",
+        "recSunqTho3isVdcy",
+        "recopkOFpcg1NaF74",
+        "recZ1197HmYziVI1W",
+        "recujPXzBLd5gKmXX",
+        "recvBJAE78VWL2CVO",
+        "recSqssEOiyN8Wf6n"
+      ],
+      "preparation": "1. Preheat a Panini press or grill pan to medium-high heat. As the Panini press heats up, imagine the warmth and coziness of a sunny Italian afternoon.\n2. Spread the pesto sauce on both halves of the ciabatta roll. As you spread the pesto, imagine the fragrant aroma of fresh basil and pine nuts.\n3. Layer the prosciutto, mozzarella cheese, and tomato slices on one half of the ciabatta roll. Sprinkle with a pinch of salt and pepper, to taste. As you layer the ingredients, savor the savory flavors and textures of the sandwich.\n4. Top the sandwich with a handful of arugula, and drizzle with olive oil. As you add the arugula, imagine the peppery bite and fresh crunch that it will bring to the sandwich.\n5. Place the other half of the ciabatta roll on top of the sandwich to form a complete Panini. Brush the outside of the roll with a little bit of olive oil.\n6. Place the Panini on the preheated Panini press or grill pan, and cook for 3-5 minutes on each side, until the bread is crispy and the cheese is melted. As the sandwich cooks, enjoy the sizzling sound and the enticing aroma of the toasty bread and melted cheese.\n7. Once the Panini is fully cooked, remove it from the press or pan and let it cool for a few minutes. Cut the sandwich in half, and serve warm. As you take your first bite, imagine the perfect combination of flavors and textures, from the crisp bread to the gooey cheese and savory meats.\n",
+      "description": "It's a perfect sandwich for a light lunch or a casual dinner, and would be ideal for a sunny afternoon or warm summer evening. It's a great option for those who enjoy Italian-style sandwiches and simple, delicious flavors.",
+      "recipeId": "9-panini-sandwich",
+      "readyTime": 10,
+      "ingredients": [
+        "1 ciabatta roll, sliced in half lengthwise",
+        "2 tbsp pesto sauce",
+        "2 slice proscuitto",
+        "2 slice mozzarella cheese",
+        "2 slice tomato",
+        "1/4 cup arugula",
+        "1 tbsp olive oil"
+      ]
+    }
+  }
+]
