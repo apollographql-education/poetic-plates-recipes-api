@@ -1,0 +1,33 @@
+{
+  "name": "recipes",
+  "description": "The recipes subgraph for Crafty Cook",
+  "version": "0.0.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/apollographql/subgraph-template-javascript-apollo-server-boilerplate"
+  },
+  "homepage": "https://github.com/apollographql/subgraph-template-javascript-apollo-server-boilerplate#readme",
+  "bugs": {
+    "url": "https://github.com/apollographql/subgraph-template-javascript-apollo-server-boilerplate/issues"
+  },
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=18.0"
+  },
+  "scripts": {
+    "dev": "nodemon --ext \"js,graphql\" src/index.js",
+    "start": "node src/index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.0.0",
+    "@apollo/subgraph": "^2.3.1",
+    "graphql": "latest",
+    "graphql-tag": "latest"
+  },
+  "devDependencies": {
+    "jest": "29.5.0",
+    "nodemon": "2.0.22"
+  }
+}
