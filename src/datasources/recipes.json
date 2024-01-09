@@ -36,7 +36,8 @@
         "2 tsp lemon zest",
         "1 tbsp thyme leaves, chopped"
       ],
-      "equipment": ["cast iron skillet"]
+      "equipment": ["cast iron skillet"],
+      "keywords": ["italian", "chicken", "lemon"]
     }
   },
   {
@@ -90,7 +91,8 @@
         "2 cloves garlic, minced",
         "1/4 tsp red pepper flakes"
       ],
-      "equipment": ["aluminum frying pan", "carbon steel wok"]
+      "equipment": ["aluminum frying pan", "carbon steel wok"],
+      "keywords": ["stirfry", "chicken", "sesame"]
     }
   },
   {
@@ -124,7 +126,8 @@
         "0.2 lb pepperoni",
         "5 slice bread"
       ],
-      "equipment": ["clay pizza stone"]
+      "equipment": ["clay pizza stone"],
+      "keywords": ["pizza", "tomato", "summer"]
     }
   },
   {
@@ -166,7 +169,8 @@
         "1 cup heavy cream",
         "croutons"
       ],
-      "equipment": ["stainless steel stockpot"]
+      "equipment": ["stainless steel stockpot"],
+      "keywords": ["soup", "winter", "cozy"]
     }
   },
   {
@@ -216,7 +220,8 @@
         "1 tbsp olive oil",
         "4 each brioche bun"
       ],
-      "equipment": ["cast iron skillet"]
+      "equipment": ["cast iron skillet"],
+      "keywords": ["grilling", "bbq party"]
     }
   },
   {
@@ -245,7 +250,8 @@
         "1 can pesto sauce",
         "10 oz cherry tomatoes"
       ],
-      "equipment": ["stainless steel stockpot"]
+      "equipment": ["stainless steel stockpot"],
+      "keywords": ["comfort food", "italian summer"]
     }
   },
   {
@@ -283,7 +289,8 @@
         "1 tsp sugar",
         "1/2 cup heavy cream"
       ],
-      "equipment": ["stainless steel stockpot"]
+      "equipment": ["stainless steel stockpot"],
+      "keywords": ["comfort food", "cozy", "winter chill"]
     }
   },
   {
@@ -319,7 +326,8 @@
         "1 onion, large, diced",
         "4 tomato, chopped"
       ],
-      "equipment": ["stainless steel saucier"]
+      "equipment": ["stainless steel saucier"],
+      "keywords": ["comfort food", "cozy", "winter chill"]
     }
   },
   {
@@ -350,7 +358,8 @@
         "2 slice cheddar cheese",
         "3 slice onion"
       ],
-      "equipment": ["cast iron skillet"]
+      "equipment": ["cast iron skillet"],
+      "keywords": ["bbq party", "friends", "grilling"]
     }
   },
   {
@@ -384,7 +393,8 @@
         "2 slice tomato",
         "1/4 cup arugula",
         "1 tbsp olive oil"
-      ]
+      ],
+      "keywords": ["sandwich", "quick snack"]
     }
   }
 ]
