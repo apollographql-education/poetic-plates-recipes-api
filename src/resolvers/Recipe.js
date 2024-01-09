@@ -7,5 +7,8 @@ module.exports = {
       const limit = 3;
       return dataSources.recipesAPI.getRelatedRecipes(recipe.id, limit);
     },
+    __resolveReference(recipe, { dataSources }) {
+      return dataSources.recipesAPI.getRecipe(recipe.id);
+    },
   },
 };
